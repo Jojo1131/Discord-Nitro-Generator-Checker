@@ -1,4 +1,4 @@
-## Discord-Nitro-Generator-Checker
+## 🎁 Quick & Easy Discord Nitro Generator and Checker written in Python. 🎁
 This is an open-source Discord Nitro Generator written in Python! Please Do Not Copy, unless you Credit!
 ## Features
 + Nitro Code Generation, amount you choice!
