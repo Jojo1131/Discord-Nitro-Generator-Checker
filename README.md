@@ -18,7 +18,8 @@ git clone https://github.com/b4db0y01/Discord-Nitro-Generator-Checker.git
 ``` 
 "START-PROGRAM.bat"
 ``` 
-##✔Generates and checks about 5 codes per second✔
+## Generates and checks about 5 codes per second.
+
 Any Issues Please Let Me Know!
 #
 ## LICENSE
