@@ -18,9 +18,9 @@ Then Run the new file
 ```
 "START-PROGRAM.bat"
 ```
-```
-You may need to disable your antivirus as it may suspect "suspicious activity" as it often calls the discord API to check the code (i solve this problem).
-```
+
+## You may need to disable your antivirus as it may suspect "suspicious activity" as it often calls the discord API to check the code (i solve this problem).
+
 and you should be good to go!
 
 You MUST Have The Latest Version of Python installed (recommended). I Am not sure how smoothly or if it would run at all on other versions!
