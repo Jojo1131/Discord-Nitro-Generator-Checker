@@ -18,7 +18,7 @@ Then Run the new file
 ```
 "START-PROGRAM.bat"
 ```
-## Generates and checks about 5-6 codes per second (21.600 codes per hour)
+## **🎁 Generates and checks about 5-6 codes per second (21.600 codes per hour)🎁**
 Any Issues Please Let Me Know!
 #
 [MIT](LICENSE) Que
