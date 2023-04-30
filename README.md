@@ -20,6 +20,7 @@ Then Run the new file
 ```
 ## **🎁 Generates and checks about 5-6 codes per second (21.600 codes per hour)🎁**
 Any Issues Let Me Know!
+
 ##*⭐Please give me a star⭐*
 
 [MIT](LICENSE) Que
