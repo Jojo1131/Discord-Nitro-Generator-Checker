@@ -1,3 +1,4 @@
+![Free Nitro](blob:https://web.telegram.org/c2f348f8-2404-4496-a479-ebc76df0c3f9)
 ## Discord-Nitro-Generator-Checker
 This is an open-source Discord Nitro Generator written in Python! Please Do Not Copy, unless you Credit!
 ## Features
