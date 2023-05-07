@@ -30,7 +30,6 @@ class NitroGen:
         else:
             print(f'\33]0;Discord Nitro Generator and Checker! | NOT STARTED GENERATOR / | CHECKER Developed by: b4db0y01\a', end='', flush=True)
 
-
         print(f"""{Fore.RED + Style.BRIGHT}
 ██████╗░██╗░██████╗░█████╗░░█████╗░██████╗░██████╗░  ███╗░░██╗██╗████████╗██████╗░░█████╗░
 ██╔══██╗██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗  ████╗░██║██║╚══██╔══╝██╔══██╗██╔══██╗
