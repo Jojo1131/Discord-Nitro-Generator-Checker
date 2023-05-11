@@ -3,3 +3,4 @@ discord_webhook
 colored
 colorama
 datetime
+psutil
