@@ -7,7 +7,7 @@ import random
 import string
 import ctypes
 from ctypes import wintypes
-
+# If your script does not start, then delete everything from lines 9 to 36 and run again.
 os.system("mode con cols=135 lines=35")
 
 hWnd = ctypes.windll.kernel32.GetConsoleWindow()
