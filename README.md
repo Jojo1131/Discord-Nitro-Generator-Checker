@@ -1,4 +1,4 @@
-![Free Nitro](https://raw.githubusercontent.com/b4db0y01/Discord-Nitro-Generator-Checker/main/Free%20Nitro.jpeg](https://raw.githubusercontent.com/b4db0y01/Discord-Nitro-Generator-Checker/fb280bd7ad1e6cb62768a7070328f17da22bd6d1/preview.png)
+![Free Nitro](https://raw.githubusercontent.com/b4db0y01/Discord-Nitro-Generator-Checker/fb280bd7ad1e6cb62768a7070328f17da22bd6d1/preview.png)
 ## Discord-Nitro-Generator-Checker
 This is an open-source Discord Nitro Generator written in Python! Please Do Not Copy, unless you Credit!
 ## Features
