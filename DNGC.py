@@ -6,6 +6,34 @@ import psutil
 import random
 import string
 import ctypes
+from ctypes import wintypes
+
+os.system("mode con cols=135 lines=35")
+
+hWnd = ctypes.windll.kernel32.GetConsoleWindow()
+
+user32 = ctypes.windll.user32
+screen_width = user32.GetSystemMetrics(0)
+screen_height = user32.GetSystemMetrics(1)
+
+rect = wintypes.RECT()
+ctypes.windll.user32.GetWindowRect(hWnd, ctypes.byref(rect))
+
+window_width = rect.right - rect.left
+window_height = rect.bottom - rect.top
+pos_x = (screen_width - window_width) // 2
+pos_y = (screen_height - window_height) // 2
+
+ctypes.windll.user32.MoveWindow(hWnd, pos_x, pos_y, window_width, window_height, True)
+
+GWL_STYLE = -16
+WS_CAPTION = 0x00C00000
+style = user32.GetWindowLongW(hWnd, GWL_STYLE)
+style &= ~WS_CAPTION
+user32.SetWindowLongW(hWnd, GWL_STYLE, style)
+
+user32.SetWindowPos(hWnd, 0, pos_x, pos_y, window_width, window_height, 0x0020)
+
 from colorama import Fore, init
 
 init()
